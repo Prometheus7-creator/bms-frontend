@@ -8,6 +8,7 @@ import {FiArrowRightCircle} from 'react-icons/fi';
 import { IconContext } from 'react-icons';
 import { NavLink } from 'react-router-dom';
 const Services = () =>{
+
     return(
         <IconContext.Provider value={{color:'#146C94',size:'2rem'}}>
         <div className='container-fluid service-container'>
@@ -21,7 +22,7 @@ const Services = () =>{
       <div class="card-body">
       <RiAccountCircleLine/>
         <h5 class="card-title">Create Account</h5>
-        <div className='nextarrow' style={{paddingLeft:'3.5cm'}}><NavLink><FiArrowRightCircle/></NavLink></div>
+        <div className='nextarrow' style={{paddingLeft:'3.5cm'}}><NavLink to="/createaccount"><FiArrowRightCircle/></NavLink></div>
         {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
       </div>
     </div>
@@ -32,7 +33,7 @@ const Services = () =>{
       <div class="card-body">
         <FaRegListAlt/>
         <h5 class="card-title">Transaction History</h5>
-        <div className='nextarrow' style={{paddingLeft:'2.5cm'}}><NavLink><FiArrowRightCircle/></NavLink></div>
+        <div className='nextarrow' style={{paddingLeft:'2.5cm'}}><NavLink to="/transactionhistory"><FiArrowRightCircle/></NavLink></div>
         {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
       </div>
     </div>
@@ -53,7 +54,7 @@ const Services = () =>{
       <div class="card-body">
       <BsCashCoin/>
         <h5 class="card-title">Money Transfer</h5>
-        <div className='nextarrow'style={{paddingLeft:'3.35cm'}}><NavLink><FiArrowRightCircle/></NavLink></div>
+        <div className='nextarrow'style={{paddingLeft:'3.35cm'}}><NavLink to="/moneytransfer"><FiArrowRightCircle/></NavLink></div>
         {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
       </div>
     </div>
@@ -64,7 +65,7 @@ const Services = () =>{
       <div class="card-body">
         <TbPigMoney/>
         <h5 class="card-title">Buy Service</h5>
-        <div className='nextarrow' style={{paddingLeft:'4.3cm'}}><NavLink><FiArrowRightCircle/></NavLink></div>
+        <div className='nextarrow' style={{paddingLeft:'4.3cm'}}><NavLink to="/servicepage"><FiArrowRightCircle/></NavLink></div>
         {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
       </div>
     </div>

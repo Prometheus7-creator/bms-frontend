@@ -24,7 +24,7 @@ const Home = () =>{
 
     return (
         <div className='home'>
-         <Navbar userName={'Testuser'}/>
+         <Navbar/>
             <div id="header" className='headersection'>
                 <div className='container-fluid '>
                     <div className='row'>
