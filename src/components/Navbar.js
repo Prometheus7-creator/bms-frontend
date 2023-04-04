@@ -25,6 +25,9 @@ const Navbar = ({userName, loggedIn}) =>{
         <li class="nav-item">
           <a class="nav-link" href="servicepage">Services</a>
         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="About">About Us</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Logout</a>
         </li>
